@@ -1,0 +1,89 @@
+# Composer dependencies
+/vendor/
+composer.lock
+
+# PHPUnit
+.phpunit.result.cache
+.phpunit.cache/
+phpunit.xml.bak
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+error.log
+access.log
+
+# Configuration files (sensitive data)
+config.php
+conn.php
+database.php
+.env
+.env.local
+.env.production
+
+# Cache files
+cache/
+tmp/
+temp/
+
+# Session files
+sessions/
+*.sess
+
+# Upload directories
+uploads/
+files/
+images/user_uploads/
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+
+# Database files
+*.sql
+*.sqlite
+*.db
+
+# Node.js (if using any frontend build tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build directories
+build/
+dist/
+
+# Coverage reports
+coverage/
+clover.xml
+coverage.xml
+
+# Security
+*.pem
+*.key
+*.crt
+*.p12
+
+# Local development
+local/
+dev/
+development/
