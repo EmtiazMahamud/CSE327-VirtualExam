@@ -5,7 +5,7 @@ require_once '../model/student_login_model.php';
 /**
  * Handles student login authentication and session management.
  *
- * @author Your Name
+ * @Emtiaz Mahamud Emon
  */
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $username = $_POST['username'];
@@ -22,3 +22,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 } else {
     include '../view/student_login_view.php';
 }
+
